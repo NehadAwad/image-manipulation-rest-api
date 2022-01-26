@@ -1,3 +1,3 @@
 
-## Image Manupulation Rest Api Website
+## Image Manipulation Rest Api Website
 
