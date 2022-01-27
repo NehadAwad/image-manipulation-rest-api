@@ -22,7 +22,7 @@ class CreateImageManipulationsTable extends Migration
             $table->string('output_path', 2000)->nullable();
             $table->timestamp('created_at')->nullable();
             $table->foreignIdFor(\App\Models\User::class, 'user_id')->nullable();
-            $table->foreignIdFor(\App\Models\Album::class, 'album_id');
+            $table->foreignIdFor(\App\Models\Album::class, 'album_id')->nullable();
         });
     }
 
